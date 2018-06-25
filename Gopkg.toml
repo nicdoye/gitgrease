@@ -26,32 +26,12 @@
 
 
 [[constraint]]
-  branch = "master"
-  name = "github.com/coreos/go-quay"
+  name = "github.com/google/go-github"
+  version = "15.0.0"
 
 [[constraint]]
   branch = "master"
-  name = "github.com/go-openapi/errors"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/go-openapi/runtime"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/go-openapi/strfmt"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/go-openapi/swag"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/go-openapi/validate"
-
-[[constraint]]
-  branch = "master"
-  name = "golang.org/x/net"
+  name = "golang.org/x/oauth2"
 
 [prune]
   go-tests = true
